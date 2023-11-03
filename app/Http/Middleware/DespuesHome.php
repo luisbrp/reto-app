@@ -22,7 +22,7 @@ class DespuesHome
 
         $content = $response->getContent();
 
-        $content .= '<div style="text-align: center; margin-top: 20px; background-color: black;"><p style="color: white;">La página ha cargado correctamente</p></div>';
+        $content .= '<div style="text-align: center; margin-top: 20px; background-color: black;"><p style="color: white;">La pagina ha cargado correctamente</p></div>';
 
         $registro = new RegistroPagina();
         $registro->url = $request->url();
