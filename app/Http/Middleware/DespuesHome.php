@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use App\Models\RegistroPagina; // Asegúrate de importar el modelo
 
-class DespuesHome
+class DespuesHome extends Middleware
 {
     /**
      * Handle an incoming request.
